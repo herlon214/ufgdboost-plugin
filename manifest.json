@@ -6,10 +6,10 @@
   "description": "Plugin insere um botão chamado 'Comparar matérias' para poder comparar as matérias concluídas com as que faltam fazer.",
 
   "icons": {
-    "32": "icon-32.png",
-    "48": "icon-48.png",
-    "64": "icon-64.png",
-    "128": "icon-128.png"
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "64": "icons/icon-64.png",
+    "128": "icons/icon-128.png"
   },
 
   "content_scripts": [

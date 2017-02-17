@@ -2,6 +2,14 @@
 
 Webextension com melhorias no [SIGECAD-Acadêmico da UFGD](http://sigecad-academico.ufgd.edu.br).
 
+
+## [Baixar para Google Chrome ](http://bit.ly/UfgdBoostChrome)
+[![Baixar para Google Chrome](./icons/chrome_128x128.png)](http://bit.ly/UfgdBoostChrome)
+
+## Baixar para Firefox
+
+*Indisponível no momento*
+
 ### Melhorias prontas
 
 1. Botão para comparar as matérias que você já concluíu / está matriculado na página de estrutura curricular.
