@@ -50,9 +50,13 @@ var mostrarMateriasConcluidas = function() {
       $('td').forEach(function(item) {
         if($(item).text() == materia.codigo) {
           $(item).parent().find('td').forEach(function(subitem) {
+
+            $(subitem).removeClass('reprovado'); // Fix para as matérias que a pessoa reprovou mas depois passou
+
             // Verifica o status da matéria
             switch(materia.status) {
               case "AP": $(subitem).addClass('aprovado'); break;
+              case "DS": $(subitem).addClass('aprovado'); break;
               case "RP": $(subitem).addClass('reprovado'); break;
               case "MA": $(subitem).addClass('matriculado'); break;
             }

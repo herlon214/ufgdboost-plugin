@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "name": "UFGD - SIGECAD Boost",
-  "version": "1.0",
+  "version": "1.1.1",
 
-  "description": "Plugin que acrescenta melhorias no site do SIGECAD-Acadêmico da UFGD",
+  "description": "Plugin insere um botão chamado 'Comparar matérias' para poder comparar as matérias concluídas com as que faltam fazer.",
 
   "icons": {
     "32": "icon-32.png",
