@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "UFGD - SIGECAD Boost",
+  "version": "1.0",
+
+  "description": "Mostra as matérias que você já concluido dentro do site do sigecad-academico.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://sigecad-academico.ufgd.edu.br/consultar/estrutura_curricular.*"],
+      "js": ["zepto.min.js","promise.min.js","fetchPolyfill.js","extrairMaterias.js"]
+    }
+  ]
+
+}
