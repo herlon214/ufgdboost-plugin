@@ -6,9 +6,10 @@
   "description": "Plugin que acrescenta melhorias no site do SIGECAD-Acadêmico da UFGD",
 
   "icons": {
-    "48": "icon48.png",
-    "64": "icon64.png",
-    "32": "icon32.png",
+    "32": "icon-32.png",
+    "48": "icon-48.png",
+    "64": "icon-64.png",
+    "128": "icon-128.png",
   },
 
   "content_scripts": [
