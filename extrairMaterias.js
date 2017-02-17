@@ -56,8 +56,12 @@ var mostrarMateriasConcluidas = function() {
             // Verifica o status da matéria
             switch(materia.status) {
               case "AP": $(subitem).addClass('aprovado'); break;
+              case "APE": $(subitem).addClass('aprovado'); break;
               case "DS": $(subitem).addClass('aprovado'); break;
+              case "DC": $(subitem).addClass('aprovado'); break;
               case "RP": $(subitem).addClass('reprovado'); break;
+              case "RF": $(subitem).addClass('reprovado'); break;
+              case "RN": $(subitem).addClass('reprovado'); break;
               case "MA": $(subitem).addClass('matriculado'); break;
             }
           })
