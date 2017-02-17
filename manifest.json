@@ -3,10 +3,12 @@
   "name": "UFGD - SIGECAD Boost",
   "version": "1.0",
 
-  "description": "Mostra as matérias que você já concluido dentro do site do sigecad-academico.",
+  "description": "Plugin que acrescenta melhorias no site do SIGECAD-Acadêmico da UFGD",
 
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icon48.png",
+    "64": "icon64.png",
+    "32": "icon32.png",
   },
 
   "content_scripts": [
