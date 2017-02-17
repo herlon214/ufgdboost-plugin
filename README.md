@@ -19,8 +19,11 @@ Webextension com melhorias no [SIGECAD-Acadêmico da UFGD](http://sigecad-academ
 
 ### Changelog
 
-* 1.1.1 
-	*[FEATURE] Adicionado complementos das legendas de acordo com regras da UFGD.
+* 1.1.3
+	*[FEATURE] Adicionado complementos das legendas de acordo com regra da UFGD.
+
+* 1.1.2
+	*[FEATURE] Adicionado complementos da legenda de APE aprovado por exame
 
 * 1.1.1
   * [FEATURE] Mostrar como aprovado as matérias que foram dispensadas por currículo (dica do Filipe De Andrade Maldonado e Adolfo Eduardo)
