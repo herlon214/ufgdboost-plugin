@@ -16,8 +16,20 @@ var extrairInfo = function($tr) {
     return null
   }
 
+}
 
+/**
+ * Por que verificar se a matéria já existe?
+ * R: A ordem das matérias no histórico é do mais recente para o mais velho.
+ * Então, quando você reprova e depois passa na matéria (se ela não mudar de número)
+ * vai aparecer como reprovado, pois é o item mais antigo no array
+ */
+var materiaJaExiste = function(materias, materia) {
+  for(var i = 0; i < materias.length; i++) {
+    if(materias[i].codigo == materia.codigo) return true;
+  }
 
+  return false;
 }
 
 var pegarConteudoMaterias = function() {
@@ -41,7 +53,10 @@ var mostrarMateriasConcluidas = function() {
     $(html).find('.painel-conteudo table tr').forEach(function(item) {
       var materia = extrairInfo($(item))
       if(materia) {
-        materias.push(materia)
+        // Verifica se a matéria já está no array
+        if(!materiaJaExiste(materias, materia)) {
+          materias.push(materia)
+        }
       }
     });
 
