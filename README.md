@@ -1,6 +1,8 @@
 # UFGD BOOST
 
-Webextension com melhorias no [SIGECAD-Acadêmico da UFGD](http://sigecad-academico.ufgd.edu.br).
+![Logo da faculdade](./extension/icons/icon-128.png) Webextension com melhorias no [SIGECAD-Acadêmico da UFGD](http://sigecad-academico.ufgd.edu.br).
+
+
 
 
 ## [Baixar para Google Chrome ](http://bit.ly/UfgdBoostChrome)
@@ -25,6 +27,9 @@ Para contribuir é necessário seguir algumas convenções:
 * Quando uma alteração for feita é necessário mudar a versão da extensão no manifest.json. Estamos seguindo o padrão SEMVER. ([clique aqui para saber mais sobre](http://semver.org/lang/pt-BR/))
 
 ### Changelog
+
+* 2.0.1
+	* Correção de estrutura das pastas
 
 * 2.0.0
 	* Removido ZeptoJS, FetchPollyfill e PromisePollyfill para poder ser aceito pela Mozilla.
