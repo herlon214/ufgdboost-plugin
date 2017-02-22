@@ -6,9 +6,8 @@ Webextension com melhorias no [SIGECAD-Acadêmico da UFGD](http://sigecad-academ
 ## [Baixar para Google Chrome ](http://bit.ly/UfgdBoostChrome)
 [![Baixar para Google Chrome](./icons/chrome_128x128.png)](http://bit.ly/UfgdBoostChrome)
 
-## Baixar para Firefox
-
-*Indisponível no momento*
+## [Baixar para Mozilla Firefox ](http://bit.ly/UfgdBoostFirefox)
+[![Baixar para Google Chrome](./icons/firefox_128x128.png)](http://bit.ly/UfgdBoostFirefox)
 
 ### Melhorias prontas
 
