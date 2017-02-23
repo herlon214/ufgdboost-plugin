@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "UFGD - SIGECAD Boost",
-  "version": "2.0.2",
+  "version": "3.0.0",
 
   "description": "Plugin insere um botão chamado 'Comparar matérias' para poder comparar as matérias concluídas com as que faltam fazer.",
 
@@ -15,8 +15,15 @@
   "content_scripts": [
     {
       "matches": ["*://sigecad-academico.ufgd.edu.br/consultar/estrutura_curricular.*"],
-      "js": ["jquery-3.1.1.slim.min.js","extrairMaterias.js"]
+      "js": [
+        "jquery-3.1.1.slim.min.js",
+        "variaveisDeEstado.js",
+        "extrairInfo.js", "pegarConteudoMaterias.js",
+        "mostrarMateriasConcluidas.js","materiaExiste.js", "selecionarMateriasEquivalentes.js",
+        "botoes.js", "carregarMateriasEquivalentes.js"]
     }
-  ]
+  ],
+
+  "permissions" : ["storage"]
 
 }
