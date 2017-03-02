@@ -33,7 +33,7 @@ $(document).ready(function() {
   }
 
   var pegarConteudoMaterias = function() {
-    return fetch('http://sigecad-academico.ufgd.edu.br/consultar/historico.jsf',{
+    return fetch('https://sigecad-academico.ufgd.edu.br/consultar/historico.jsf',{
         credentials: 'include',
         method: 'GET'
       }).then(function(resp) {
@@ -91,6 +91,6 @@ $(document).ready(function() {
   }
 
   $('.mostrarMateriasConcluidas').remove();
-  $('#formAcoes td').eq(0).append("<button type='button' class='btn btn-success mostrarMateriasConcluidas' title='UFGD Boost'>Comparar matérias</button>");
+  $('#formAcoes td').eq(0).append("<button type='button' class='btn btn-success mostrarMateriasConcluidas' title='UFGD Boost'>Comparar disciplinas</button>");
   $('.mostrarMateriasConcluidas').click(mostrarMateriasConcluidas);
 })

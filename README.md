@@ -28,6 +28,10 @@ Para contribuir é necessário seguir algumas convenções:
 
 ### Changelog
 
+* 2.0.3
+	* Correção https na request
+	* Alteração do nome do botão de 'Comparar matérias' para 'Comparar disciplinas'
+
 * 2.0.1
 	* Correção de estrutura das pastas
 
